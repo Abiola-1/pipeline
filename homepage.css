@@ -1,0 +1,48 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 17px;
+ color: #926239;
+ line-height: 1.6;
+}
+.showcase{
+ background-image: url(./pexels-photo-1772123.jpeg);
+ height: 100vh;
+background-position: center;
+background-size:cover;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+justify-items: center;
+padding: 0 20px;
+text-align: center;
+
+ }
+.showcase > h1{
+ font-size: 50px;
+ line-height: 1.2;
+}
+.showcase p{
+ font-size: 20px;
+}
+
+ .showcase > a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #926239;
+  border: #926239 1px solid;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 20px;}
+
+  .showcase > a:hover{
+   background: #926239;
+   color: aliceblue;
+
+
+  }
